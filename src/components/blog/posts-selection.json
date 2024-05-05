@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_blog_posts_selections",
+  "info": {
+    "displayName": "posts_selection",
+    "icon": "bell"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "featured_posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post"
+    },
+    "layout": {
+      "type": "enumeration",
+      "enum": [
+        "featured",
+        "latest",
+        "tag"
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_layout_hero_buttons",
+  "info": {
+    "displayName": "hero_buttons",
+    "icon": "brush",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "button_type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "general"
+      ]
+    }
+  }
+}

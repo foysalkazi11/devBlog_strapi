@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_layout_hero_sections",
+  "info": {
+    "displayName": "hero_section",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "head_line": {
+      "type": "string",
+      "required": true
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "buttons": {
+      "displayName": "hero_buttons",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.hero-buttons"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_layout_newsletters",
+  "info": {
+    "displayName": "newsletter"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Subscript to our newsletter"
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "default": "Stray up to date with our latest release "
+    }
+  }
+}
